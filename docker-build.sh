@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-./gradlew
+./gradlew clean build
 
 docker build -t auth-service .
