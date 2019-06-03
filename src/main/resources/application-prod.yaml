@@ -13,7 +13,7 @@ spring:
       client:
         provider:
           okta:
-            authorization-uri: http://localhost:8443/login
+            authorization-uri: https://chalktool.in:8443/login
             user-name-attribute: email
 
 okta:
