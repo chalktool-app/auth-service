@@ -1,7 +1,7 @@
 server:
   port: 8443
   ssl: true
-  ssl.key-store: /etc/letsencrypt/live/api.chalktool.in/keystore.p12
+  ssl.key-store: /etc/letsencrypt/live/chalktool.in/keystore.p12
   ssl.key-store-password: RavenPuff
   ssl.keyStoreType: PKCS12
   ssl.keyAlias: tomcat
