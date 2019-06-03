@@ -1,4 +1,4 @@
-FROM openjdk:8u212-jre-alpine3.9
+FROM ubuntu:18.04
 
 ENV APP_HOME /usr/local/chalktool/auth-service
 RUN mkdir -p ${APP_HOME}
