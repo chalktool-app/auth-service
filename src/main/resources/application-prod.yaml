@@ -13,7 +13,7 @@ spring:
       client:
         provider:
           okta:
-            authorization-uri: http://localhost/login
+            authorization-uri: http://localhost:8443/login
             user-name-attribute: email
 
 okta:
